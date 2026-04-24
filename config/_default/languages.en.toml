@@ -1,0 +1,80 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Saptarshi's Portfolio"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Saptarshi Nanda"
+  email = "saptarshinanda@outlook.com"
+  image = "https://avatars.githubusercontent.com/u/191011687?v=4"
+  imageQuality = 96
+  headline = "Cybersecurity and Embedded Enthusiast"
+  bio = "I love Assembly!"
+  links = [
+    { email = "mailto:saptarshinanda@gmail.com" },
+    { github = "https://github.com/1nf3rn0314" },
+    { linkedin = "https://linkedin.com/in/saptarshi-nanda" },
+    { reddit = "https://reddit.com/user/_1nf3rn0" },
+    { medium = "https://medium.com/@1nf3rn0314" },
+    { telegram = "https://t.me/inf3rn0314" },
+  ]
+
+# { link = "https://link-to-some-website.com/" },
+# { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+# { discord = "https://discord.gg/invite" },
+# { apple = "https://www.apple.com" },
+# { blogger = "https://username.blogspot.com/" },
+# { bluesky = "https://bsky.app/profile/username" },
+# { codepen = "https://codepen.io/username" },
+# { dev = "https://dev.to/username" },
+# { dribbble = "https://dribbble.com/username" },
+# { facebook = "https://facebook.com/username" },
+# { flickr = "https://www.flickr.com/photos/username/" },
+# { foursquare = "https://foursquare.com/username" },
+# { gitlab = "https://gitlab.com/username" },
+# { google = "https://www.google.com/" },
+# { hashnode = "https://username.hashnode.dev" },
+# { instagram = "https://instagram.com/username" },
+# { itch-io = "https://username.itch.io" },
+# { keybase = "https://keybase.io/username" },
+# { keyoxide = "https://keyoxide.org/URI" },
+# { kickstarter = "https://www.kickstarter.com/profile/username" },
+# { lastfm = "https://lastfm.com/user/username" },
+# { mastodon = "https://mastodon.instance/@username" },
+# { matrix = "https://matrix.to/#/URI" },
+# { microsoft = "https://www.microsoft.com/" },
+# { orcid = "https://orcid.org/userid" },
+# { patreon = "https://www.patreon.com/username" },
+# { pinterest = "https://pinterest.com/username" },
+# { researchgate = "https://www.researchgate.net/profile/username" },
+# { signal = "https://signal.me/#eu/userid" },
+# { slack = "https://workspace.url/team/userid" },
+# { snapchat = "https://snapchat.com/add/username" },
+# { soundcloud = "https://soundcloud.com/username" },
+# { spotify = "https://open.spotify.com/user/userid" },
+# { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+# { steam = "https://steamcommunity.com/profiles/userid" },
+# { strava = "https://www.strava.com/athletes/username" },
+# { threads = "https://www.threads.net/@username" },
+# { tiktok = "https://tiktok.com/@username" },
+# { tumblr = "https://username.tumblr.com" },
+# { twitch = "https://twitch.tv/username" },
+# { untappd = "https://untappd.com/user/username" },
+# { twitter = "https://twitter.com/username" },
+# { x-twitter = "https://twitter.com/username" },
+# { whatsapp = "https://wa.me/phone-number" },
+# { youtube = "https://youtube.com/username" },
+# { ko-fi = "https://ko-fi.com/username" },
+# { codeberg = "https://codeberg.org/username"},
+# { printables = "https://www.printables.com/@username"},
