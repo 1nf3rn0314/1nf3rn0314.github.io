@@ -3,7 +3,7 @@ date: 2026-04-10
 title: "The Sticker Shop - TryHackMe (Easy)"
 description: "..."
 categories: ["thm-writeup"]
-tags: ["blind-xss", "rce", "fetch-api", "async-await"]
+tags: ["easy", "blind-xss", "rce", "fetch-api", "async-await"]
 draft: false
 ---
 

@@ -3,7 +3,7 @@ date: 2026-05-30
 title: "Thompson - TryHackMe (Easy)"
 description: "..."
 categories: ["thm-writeup"]
-tags: ["apache", "tomcat", "default-creds"]
+tags: ["easy", "apache", "tomcat", "default-creds"]
 draft: false
 ---
 

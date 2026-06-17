@@ -19,8 +19,8 @@ title = "Saptarshi's Portfolio"
   email = "saptarshinanda@outlook.com"
   image = "https://avatars.githubusercontent.com/u/191011687?v=4"
   imageQuality = 96
-  headline = "Cybersecurity and Embedded Enthusiast"
-  bio = "I love Assembly!"
+  headline = "Cyber Security and Low-Level Enthusiast"
+  bio = "I love C & Assembly!"
   links = [
     { email = "mailto:saptarshinanda@gmail.com" },
     { github = "https://github.com/1nf3rn0314" },
