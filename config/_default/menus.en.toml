@@ -10,10 +10,17 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "THM Writeups"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+  name = "Blogs"
+  pageRef = "posts/blogs"
+  pre = "edit"
+  weight = 10
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  pre = "file-lines"
+  weight = 20
 
 [[main]]
   name = "THM Writeups"
@@ -22,34 +29,27 @@
   weight = 30
 
 [[main]]
-  name = "Blogs"
-  pageRef = "posts/blogs"
-  pre = "edit"
-  weight = 20
-
-[[main]]
-  name = "About Me"
+  name = "About"
   pageRef = "about"
   pre = "circle-info"
-  weight = 10
-
-#[[main]]
-#  name = "THM Writeups"
-#  parent = "Posts"
-#  pageRef = "posts/thm-writeups"
-#  weight = 10
-
-#[[main]]
-#  name = "Some Other"
-#  parent = "Posts"
-#  pageRef = "posts/some-other"
-#  weight = 10
+  weight = 40
 
 [[main]]
-  name = "Source Code"
+  name = ""
   pre = "github"
-  url = "https://github.com"
-  weight = 40
+  url = "https://github.com/1nf3rn0314/1nf3rn0314.github.io"
+  weight = 50
+
+
+
+
+
+
+
+
+
+
+
 
 #[[subnavigation]]
 #  name = "An interesting topic"

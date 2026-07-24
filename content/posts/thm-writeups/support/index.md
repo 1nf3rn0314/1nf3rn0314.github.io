@@ -18,6 +18,8 @@ draft: false
 
 > Can you pentest the platform and escalate your access to achieve RCE on the server?
 
+Room Link: [Support](https://tryhackme.com/room/support)
+
 ---
 
 ## Reconnaissance
@@ -133,7 +135,7 @@ ________________________________________________
  :: Filter           : Response size: 2678
 ________________________________________________
 
-s*****                  [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 245ms]
+******                  [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 245ms]
 [WARN] Caught keyboard interrupt (Ctrl-C)
 ```
 
@@ -233,7 +235,7 @@ Selecting an option, either Time or Date, will give the current server time or d
 Just click on the Resend button in the Network tab to resend the request by modifying the `POST` body. Our payload in this case will be `;cat%20/home/ubuntu/user.txt`.
 
 > [!note] Note for non-Firefox users
-> The Resend button in the Network is only available in Firefox or other Firefox-derived browsers. For Chromium derived browser users, use BurpSuite or Postman to send custom requests. Or if you are high enough, use `curl`.
+> The Resend button in the Network is only available in Firefox or other Firefox-based browsers. For Chromium based browser users, use BurpSuite or Postman to send custom requests. Or `curl` works as well.
 
 ![final_payload](15_rce_payload.png)
 

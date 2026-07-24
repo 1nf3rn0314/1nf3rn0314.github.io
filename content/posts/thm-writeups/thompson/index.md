@@ -16,6 +16,8 @@ draft: false
 
 > read user.txt and root.txt
 
+Room Link: [Thompson](https://tryhackme.com/room/bsidesgtthompson)
+
 ---
 
 ## Reconnaissance
