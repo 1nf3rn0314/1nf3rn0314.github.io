@@ -66,7 +66,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [article]
   showDate = true
-  showViews = true
+  showViews = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
@@ -106,7 +106,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
-  showViews = true
+  showViews = false
   showLikes = false
   showTableOfContents = true
   showCards = false
@@ -145,13 +145,13 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   cardViewScreenWidth = false
 
 [firebase]
-  apiKey = "AIzaSyAzMPG6_1CB1kfdci3QBBWJ55ORyWyxX3A"
-  authDomain = "portfolio-4e8a8.firebaseapp.com"
-  projectId = "portfolio-4e8a8"
-  storageBucket = "portfolio-4e8a8.firebasestorage.app"
-  messagingSenderId = "15295196737"
-  appId = "1:15295196737:web:4007cf5b04c16df49ea0c0"
-  measurementId = "G-JD0FTXR2GQ"
+  # apiKey = ""
+  # authDomain = ""
+  # projectId = ""
+  # storageBucket = ""
+  # messagingSenderId = ""
+  # appId = ""
+  # measurementId = ""
 
 [fathomAnalytics]
   # site = "ABC12345"
