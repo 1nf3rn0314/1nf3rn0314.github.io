@@ -24,7 +24,7 @@
 
 [[main]]
   name = "THM Writeups"
-  pageRef = "posts/thm-writeups"
+  pageRef = "posts/thm_writeups"
   pre = "code"
   weight = 30
 
