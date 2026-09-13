@@ -57,6 +57,8 @@ Nmap done: 1 IP address (1 host up) scanned in 11.20 seconds
 
 We have `22/ssh`, `80/http` and `8081/http` open. Let's check out each one.
 
+---
+
 ## Access as moderator using XSS
 
 Port 80 contains a simple dashboard with a **Register** button.
@@ -120,6 +122,8 @@ If you see, there is a test post by moderator saying that login.worldwap.thm is 
 ![Flag 1](10_flag_1.png)
 
 And we have the first flag!!
+
+---
 
 ## Access as admin using XSS
 

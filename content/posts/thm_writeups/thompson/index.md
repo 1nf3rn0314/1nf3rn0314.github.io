@@ -76,6 +76,8 @@ Using that, we successfully login to the `/manager` page. Scrolling down a bit, 
 
 > A `.war` file (Web Application Resource or Web application ARchive) is a file used to distribute a collection of JAR-files, Jakarta Server Pages, Jakarta Servlets, Java classes, XML files, tag libraries, static web pages (HTML and related files) and other resources that together constitute a web application. (Source: Wikipedia)
 
+---
+
 ## Exploit
 
 We find a file upload page where we can craft custom payload as a`.war` file and upload. We will use `msfvenom` for generating payload.
@@ -162,6 +164,8 @@ cat user.txt
 ```
 
 So we got user flag. Now onto PrivEsc for root flag.
+
+---
 
 ## Privilege Escalation
 

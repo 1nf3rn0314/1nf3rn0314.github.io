@@ -100,6 +100,8 @@ If you visit the `info.php` page, you will see whole lot of debug information. I
 <?php phpinfo(); ?>
 ```
 
+---
+
 ## Bruteforce Login
 
 At the home page, we had a login page. It is evident that the backend server is a PHP server. So there is server-side credential validation. Probably a backend SQL database. I checked for some usual SQLi inputs, but none of them worked, indicating no SQL backend database. The only option left is bruteforcing. As a hint, we get an email, `help@support.thm`. We can use this to brute force its password. I used `ffuf`. You can use anything similar.
@@ -140,6 +142,8 @@ ________________________________________________
 ```
 
 We got the password. Now lets login.
+
+---
 
 ## Local File Inclusion
 
@@ -183,6 +187,8 @@ First thing we notice, the styling of the header is gone. Checking the source, w
 
 We get a master password. Save this for later.
 
+---
+
 ## Admin Login
 
 We also had another interesting file `api.php`. We can also try to read that using the same LFI payload.
@@ -221,6 +227,8 @@ Of course, we can check for IDOR by visiting `/user/1`.
 So we have an admin email and we had a password from earlier while we were exploiting LFI to read `config.php`. Now here is the funny part. If we use those creds to login, we will be greeted with "Invalid credentials". I can't explain why this works but this works. Whatever email you got, use that and just remove the `@` character from the password you got and then you can login. And we are logged in as admin. The admin page contains the Task 1 flag.
 
 ![admin_flag](12_admin_flag.png)
+
+---
 
 ## Remote Code Execution
 

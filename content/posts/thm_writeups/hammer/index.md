@@ -47,6 +47,8 @@ Port 1337 has a HTTP server open. Let's check that out.
 
 It's a simple login page.
 
+---
+
 ## Logging In
 
 #### Getting a valid email address to login
@@ -202,6 +204,8 @@ If everything has worked successfully, you will be redirected to login page with
 ![Dashboard](11_dashboard.png)
 
 And we're in! Copy the flag fast, because you will notice the page automatically logouts after certain time interval.
+
+---
 
 ## RCE
 
